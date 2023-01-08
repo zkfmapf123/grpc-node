@@ -22,10 +22,10 @@
 
 ### 내가 생각한 단점
 
-    - Serverless 플랫폼에서는 사용하기가 힘들것같음
-        - Http2 방식이나, REST API에 묶이지 않으나 AWS API Gateway가 proto 방식을 도입하지 않아서 직접 Proxy로 만들어야 할것같음 -> 근데 굳이?
-    - 구조자체를 만들어주는 CLI를 만들어 주면 좋을것같음 -> 좀 귀찮긴 함
-    - 주로 Node 보다는 Golang 프로젝트에 좀더 적합하지 않을까? 싶기도 함
+- Serverless 플랫폼에서는 사용하기가 힘들것같음
+  - Http2 방식이나, REST API에 묶이지 않으나 AWS API Gateway가 proto 방식을 도입하지 않아서 직접 Proxy로 만들어야 할것같음 -> 근데 굳이?
+- 구조자체를 만들어주는 CLI를 만들어 주면 좋을것같음 -> 좀 귀찮긴 함
+- 주로 Node 보다는 Golang 프로젝트에 좀더 적합하지 않을까? 싶기도 함
 
 ### Result
 
