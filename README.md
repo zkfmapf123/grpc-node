@@ -21,7 +21,7 @@
 - 직렬화 데이터 구조
 - 프로토콜 버퍼는 하나의 파일에 최대 64MB 지원가능 하며, JSON파일을 프로토콜 버퍼 파일포맷으로 전환이 가능하고, 반대의 경우도 가능하다.
 
-[More Detail ProtoBuf...](./proto/README.md)
+[More Detail ProtoBuf...](./proto.md)
 
 ## Library
 
