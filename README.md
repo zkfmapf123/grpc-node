@@ -58,9 +58,4 @@
 
 ### Conclusion
 
-- HTTP2 방식 + 데이터 직렬화 부분에서는 좋은 것 같음
-- proto 코드 하나로 전체 코드 베이스를 구성할 수 있는 부분이 굉장히 편리함
-- Service, Repository 그외 프로젝트 설정하는 부분만 CLI로 구성한다면 빠르고 편리하게 구성할 수 있을것같음
-- 문서를 굳이 만들지 않아도 됨
-- ServerLess 랑 같이 사용하는 것은 힘들듯 (API Gateway -> Proto Proxy -> Lambda) 형태로 진행되어야 할듯
-- 나중에 사이드 프로젝트에서 만져봐도 될듯
+[Colusion...](./ConClusion.md)
