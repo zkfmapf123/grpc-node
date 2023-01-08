@@ -1,0 +1,31 @@
+syntax="proto3";
+package helloPackage;
+
+message HelloRequest {
+    string first_name = 1;
+    string last_name = 2;
+    int32 age = 3;
+}
+
+message HelloResponse {
+    int32 status = 1;
+    string result = 2;
+}
+
+service GreetService {
+    
+    // unary
+    rpc Hello(HelloRequest) returns (HelloResponse);
+
+    // server streaming
+    rpc HelloManyTimes(HelloRequest) returns (stream HelloResponse);
+
+    // client streaming
+    rpc HelloLong(stream HelloRequest) returns (HelloResponse);
+
+    // multiplexing
+    rpc HelloBoth(stream HelloRequest) returns (stream HelloResponse);
+
+    // DeadLine
+    rpc HelloDeadLine(HelloRequest) returns (HelloResponse);
+}

@@ -22,3 +22,44 @@
 - 프로토콜 버퍼는 하나의 파일에 최대 64MB 지원가능 하며, JSON파일을 프로토콜 버퍼 파일포맷으로 전환이 가능하고, 반대의 경우도 가능하다.
 
 [More Detail ProtoBuf...](./proto/README.md)
+
+## Library
+
+```
+    // MAC OS
+    brew install grpc protobuf
+
+    // NPM
+    npm i @grpc/grpc-js @grpc/proto-loader typescript ts-node -D
+```
+
+## Command
+
+```
+    // proto lint 검사
+    buf ls-files
+    buf lint
+
+    // proto generate (buf.gen.yaml)
+    buf generate
+    brew link --overwrite protobuf@3
+```
+
+### issue
+
+```
+    // protoc-gen-js: program not found or is not executable
+    brew install protobuf@3
+```
+
+### Simple Project
+
+> hello-world
+
+> Calculator
+
+...
+
+### Reference
+
+<div><a href="https://docs.buf.build/installation">Buf Documents</a></div>
