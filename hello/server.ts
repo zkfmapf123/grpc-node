@@ -13,7 +13,7 @@ const helloPackage = grpcObj.helloPackage
 const getServer = () => {
   const server = new grpc.Server()
   server.addService(helloPackage.GreetService.service, {
-    Hello: () => {},
+    Hello: (call, cb) => {},
     HelloManyTimes: () => {},
     HelloLong: () => {},
     HelloBoth: () => {},
